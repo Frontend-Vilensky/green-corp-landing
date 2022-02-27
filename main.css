@@ -50,9 +50,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-bottom: 115px;
-  padding-top: 115px;
-   /* ... */
+  padding: 115px;
   background: url('img/back.png') no-repeat;
   background-position: center;
   background-size: cover;
@@ -89,7 +87,6 @@ button:hover {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
 }
 .form h1 {
   font-size: 48px;
