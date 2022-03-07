@@ -45,6 +45,10 @@ button:hover {
 .about__sun—image {
   width: 100px;
   height: 100px;
+  animation-name: rotation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .about {
   display: flex;
@@ -166,3 +170,13 @@ footer {
 .footer__links a {
   margin-bottom: 15px;
 }
+@keyframes rotation {
+  0%{
+      transform: rotate(0deg);
+    }
+  
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
