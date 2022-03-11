@@ -8,6 +8,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  position: sticky;
+  top:0;
+  background-color: white;
+  z-index: 1;
 }
 .header__logo {
   height: 30px;
@@ -49,6 +53,7 @@ button:hover {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  position: absolute;
 }
 .about {
   display: flex;
