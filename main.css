@@ -142,9 +142,11 @@ margin-top: 60px;
 }
 select {
   appearance: none;
+  padding: 0 20px;
 }
 input {
   outline: none;
+  padding: 0 20px;
 }
 footer {
   padding: 90px 20px;
@@ -184,4 +186,3 @@ footer {
       transform: rotate(360deg);
     }
 }
-
